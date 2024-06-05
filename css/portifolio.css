@@ -137,16 +137,20 @@ body{
     margin-top: 4.5%;
     font-size: 12px;
 }
-.tabela{
+.box {
     margin-left: 20vw;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 80vw;
+    max-width: 80vw;overflow: hidden;
+}
+  
+.images {
+    width: 20vw;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    overflow: hidden; 
+    display: block;
+  }
 
-}
-.images{
-    width: 19.58vw;
-    height: 24vh;    
-    padding: -2px -2px -2px -2px;
-}
