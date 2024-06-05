@@ -144,13 +144,11 @@ body{
     flex-wrap: wrap;
     width: 80vw;
     max-width: 80vw;overflow: hidden;
-}
-  
+} 
 .images {
     width: 20vw;
     aspect-ratio: 1 / 1; 
     object-fit: cover; 
     overflow: hidden; 
     display: block;
-  }
-
+}

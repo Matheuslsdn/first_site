@@ -147,11 +147,11 @@ body{
     border: solid lightgray 5%;
     background-color: white;
 }
-.tabela{
-    border: solid black 2px;
+.tabela th, td{
+    border: solid rgb(255, 255, 255) 2px;
     text-align: center;
 }
-.iconpage{
+.iconpage1, .iconpage2, .iconpage3, .iconpage4{
     width: 40px ;
     padding: 25px;
     text-align: center;
@@ -159,8 +159,20 @@ body{
     border-radius: 50%;
     margin-top: 10px;
 }
-.tabela1 ,th ,td{
-    border: solid black 3px;
+.iconpage1:hover{
+    background-color: #ff5b5b;
+}
+.iconpage2:hover{
+    background-color: #63ff78;
+}
+.iconpage3:hover{
+    background-color: #ff99ff;
+}
+.iconpage4:hover{
+    background-color: #99e2ff;
+}
+.tabela1 ,th {
+    border: solid black 2px;
 
 }
 .tabela1 th:hover{
