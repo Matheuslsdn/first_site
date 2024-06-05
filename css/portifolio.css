@@ -145,7 +145,7 @@ body{
     width: 80vw;
     max-width: 80vw;overflow: hidden;
 } 
-.images {
+.imagens {
     width: 20vw;
     aspect-ratio: 1 / 1; 
     object-fit: cover; 
