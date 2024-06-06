@@ -237,7 +237,12 @@ ul{
 }
 .testemunha img{
     max-width: 6vw;
-    border-right: 8.2vw solid yellow;
+   /* border-right: 8.2vw solid yellow;
+    box-shadow: 0 5px 0 0 yellow;*/
+}
+.testbox{
+    max-width: 6vw;
+    background-color: yellow;
 }
 .ending{
     margin-left: 10%;

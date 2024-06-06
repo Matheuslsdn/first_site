@@ -1,11 +1,11 @@
-const imageUrls = ['img/imagem-home/cinza-escuro.jpg', 'img/imagem-home/download(1).jpg', 'img/imagem-home/donwload.jpg'];
+let imageUrls = ['img/imagem-home/download(2).jpg', 'img/imagem-home/download(1).jpg', 'img/imagem-home/download.jpg', 'img/imagem-home/download(3).jpg', 'img/imagem-home/download(4).jpg', 'img/imagem-home/images.jpg', 'img/imagem-home/images(1).jpg', 'img/imagem-home/images(2).jpg', 'img/imagem-home/images(3).jpg', 'img/imagem-home/images(4).jpg'];
 let currentIndex = 0;
 
-const currentImage = document.querySelector('.img1');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+let currentImage = document.querySelector('.slider');
+let prev = document.querySelector('.prev');
+let next = document.querySelector('.next');
 
-prevButton.addEventListener('click', () => {
+prev.addEventListener('click', () => {
   currentIndex--;
   if (currentIndex < 0) {
     currentIndex = imageUrls.length - 1;
@@ -13,7 +13,7 @@ prevButton.addEventListener('click', () => {
   currentImage.src = imageUrls[currentIndex];
 });
 
-nextButton.addEventListener('click', () => {
+next.addEventListener('click', () => {
   currentIndex++;
   if (currentIndex >= imageUrls.length) {
     currentIndex = 0;
